@@ -1,0 +1,42 @@
+{
+  "name": "Roman",
+  "age": 20,
+  "adult": true,
+  "allRelatives": 6,
+  "mother": {
+    "name": "Oksana",
+    "age": 45,
+    "isAdult": true,
+    "amountOfAllRelatives": 6,
+    "mother": {
+      "name": "Maria",
+      "age": 72,
+      "isAdult": true,
+      "amountOfAllRelatives": 6
+    },
+    "father": {
+      "name": "Vasyl",
+      "age": 79,
+      "isAdult": true,
+      "amountOfAllRelatives": 6
+    }
+  },
+  "father": {
+    "name": "Orest",
+    "age": 52,
+    "isAdult": true,
+    "amountOfAllRelatives": 6,
+    "mother": {
+      "name": "Nadia",
+      "age": 68,
+      "isAdult": true,
+      "amountOfAllRelatives": 6,
+      "father": {
+        "name": "Myron",
+        "age": 72,
+        "isAdult": true,
+        "amountOfAllRelatives": 6
+      }
+    }
+  }
+}
